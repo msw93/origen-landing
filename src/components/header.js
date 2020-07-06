@@ -3,12 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
+  <header className='bg-black'>
     <div
       style={{
         margin: `0 auto`,
@@ -16,14 +11,8 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
+      <h1 className='ma0 tc' >
+        <Link to="/" className='light-blue no-underline'>
           {siteTitle}
         </Link>
       </h1>
