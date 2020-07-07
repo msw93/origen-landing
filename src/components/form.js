@@ -4,7 +4,7 @@ import '../styles/layoutNew.css'
 const Form = () => {
     return (  
 
-      <div id="mc_embed_signup" className='bg-white b--black w-50 center shadow-2 br3'>
+      <div id="mc_embed_signup" className='bg-white b--black w-50-l w-50-m center shadow-2 br3'>
         <form
           action="https://gmail.us4.list-manage.com/subscribe/post?u=84aae6f5bad25a723b26a7f65&id=498e0af72c"
           method="post"

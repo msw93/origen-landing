@@ -7,10 +7,12 @@ import LogoPic from '../images/origen-logo.png'
 
 const Logo = () => (
   <div className='absolute w-20-m top-0 left-0'>
-    <img 
-      src={LogoPic} 
-      alt="Origen Logo"  
-      width="200px"/>
+    <a href='/'>
+      <img 
+        src={LogoPic} 
+        alt="Origen Logo"  
+        width="200px"/>
+    </a>
   </div>
 )
 
