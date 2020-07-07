@@ -3,12 +3,14 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Form from '../components/form'
+import Logo from '../components/logo'
 import 'tachyons'
 import '../styles/layoutNew.css'
 
 
 const Signup = () => (
   <Layout className="">
+  <Logo />
   	<div className="flex flex-column items-center">
 	  	  <SEO title="Page two" />
 	  	  <h1 className="white">To find out more signup below</h1>

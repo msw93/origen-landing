@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://origen-water.surge.sh">
-    <img alt="Origen" src="src/images/droplet.png" width="60" />
+    <img alt="Origen" src="src/images/droplet.png" width="100px" />
   </a>
 </p>
 <h1 align="center">
