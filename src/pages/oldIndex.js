@@ -1,7 +1,6 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import 'tachyons'
 import '../styles/layoutNew.css'
@@ -11,7 +10,6 @@ const oldIndexPage = () => (
     <SEO title="Home" />
     <div className='flex items-center tc vh-100 pa0'>
       <div className='w-50 vh-100'>
-        <Image  />
       </div>
       <div className='w-60 v-mid ml3 mr3 br3'>
         <h1>The cleanest water bottle ever invented.</h1>

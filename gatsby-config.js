@@ -1,9 +1,12 @@
 module.exports = {
+  
   siteMetadata: {
     title: `Origen`,
     description: `Landing Page for Origen`,
     author: `@MichaelWiner`,
   },
+
+  
   plugins: [
     `gatsby-plugin-react-helmet`,
     {

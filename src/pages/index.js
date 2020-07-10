@@ -6,6 +6,7 @@ import Logo from "../components/logo"
 import 'tachyons'
 import '../styles/layoutNew.css'
 
+
 const IndexPage = () => (
   <Layout id='newIndex'>
     <SEO title="Home" />

@@ -9,14 +9,14 @@ import '../styles/layoutNew.css'
 
 
 const Signup = () => (
-  <Layout className="">
-  <Logo />
+  <Layout>
+    <Logo />
   	<div className="flex flex-column items-center">
-	  	  <SEO title="Page two" />
-	  	  <h1 className="white">To find out more signup below</h1>
-	  	  <Form />	
-  			<br />
-  	  	<Link className="white no-underline"to="/">Go back to the homepage</Link>
+	  	<SEO title="Page two" />
+	  	<h1 className="white">To find out more signup below</h1>
+	  	<Form />	
+  		<br />
+  	  <Link className="white no-underline bottom-0"to="/">Go back to the homepage</Link>
   	</div>  
   </Layout>
 )
