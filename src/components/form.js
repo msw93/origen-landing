@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/layoutNew.css'
+import '../styles/mailchimpForm.css'
 
 const Form = () => {
     return (  
