@@ -4,7 +4,7 @@ import '../styles/mailchimpForm.css'
 const Form = () => {
     return (  
 
-      <div id="mc_embed_signup" className='bg-white b--black w-50-l w-50-m center shadow-2 br3'>
+      <div id="mc_embed_signup" className='bg-white b--black w-40-l w-50-m center shadow-2 br3'>
         <form
           action="https://gmail.us4.list-manage.com/subscribe/post?u=84aae6f5bad25a723b26a7f65&id=498e0af72c"
           method="post"
@@ -37,52 +37,12 @@ const Form = () => {
                 type="text"
                 defaultValue=""
                 name="FNAME"
-                className
+                className=""
                 id="mce-FNAME"
               />
             </div>
-            <div className="mc-field-group">
-              <label htmlFor="mce-LNAME">Last Name </label>
-              <input
-                type="text"
-                defaultValue=""
-                name="LNAME"
-                className
-                id="mce-LNAME"
-              />
-            </div>
-            <div className="mc-field-group size1of2">
-              <label htmlFor="mce-BIRTHDAY-month">Birthday </label>
-              <div className="datefield">
-                <span className="subfield monthfield">
-                  <input
-                    className="birthday "
-                    type="text"
-                    pattern="[0-9]*"
-                    defaultValue=""
-                    placeholder="MM"
-                    size={2}
-                    maxLength={2}
-                    name="BIRTHDAY[month]"
-                    id="mce-BIRTHDAY-month"
-                  />
-                </span>{" "}
-                /
-                <span className="subfield dayfield">
-                  <input
-                    className="birthday "
-                    type="text"
-                    pattern="[0-9]*"
-                    defaultValue=""
-                    placeholder="DD"
-                    size={2}
-                    maxLength={2}
-                    name="BIRTHDAY[day]"
-                    id="mce-BIRTHDAY-day"
-                  />
-                </span>
-                <span className="small-meta nowrap">( mm / dd )</span>
-              </div>
+    
+            
             </div>{" "}
             <div id="mce-responses" className="clear">
               <div
@@ -114,7 +74,7 @@ const Form = () => {
                 tabIndex={-1}
                 defaultValue
               />
-            </div>
+            
             <div className="clear">
               <input
                 type="submit"
@@ -126,6 +86,15 @@ const Form = () => {
             </div>
           </div>
         </form>
+
+
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js' />
+
+
+ 
+
+
+
       </div>
     );
   

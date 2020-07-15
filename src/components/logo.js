@@ -3,12 +3,12 @@ import {Link} from 'gatsby'
 import '../styles/layoutNew.css';
 import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
-//import LogoPic from '../images/origen-logo.png'
+import logoSVG from '../images/origenLogoWhite.svg'
 
 
 
 
-const Logo = () => {
+export const Logo = () => {
 
 	const data = useStaticQuery(graphql`
 		query MyQuery {
@@ -25,13 +25,28 @@ const Logo = () => {
 		}
  `)
 
+	const logoJPG = data.file.childImageSharp.fluid;
+
+
 	return(
   	<div className='absolute w-20-m w-20-ns top-0 left-0'>
 	  	<Link to='/'>
-	  	    <Img fluid={data.file.childImageSharp.fluid}/>
+	  	    <Img fluid={logoJPG}/>
   	  </Link>
   	</div>
   )
 }
+
+export const LogoSVG = () => {
+	return (
+		<div className='w-10-l w-20-m w-30-ns w-30 pa2 absolute top-0 left-0'>
+			<Link to='/'>
+				<img className='' src={logoSVG} alt={`Origen Logo`}/>
+			</Link>
+		</div>
+	)
+
+}
+
 
 export default Logo;

@@ -2,18 +2,16 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Form from '../components/form'
-import Logo from '../components/logo'
+import Form from '../components/Form2'
 import 'tachyons'
 import '../styles/layoutNew.css'
 
 
 const Signup = () => (
   <Layout>
-    <Logo />
-  	<div className="flex flex-column items-center">
+  	<div className="pt4 flex flex-column items-center tc">
 	  	<SEO title="Page two" />
-	  	<h1 className="white">To find out more signup below</h1>
+	  	<h1 id='signupMsg'className="pa3 white">To find out more signup below</h1>
 	  	<Form />	
   		<br />
   	  <Link className="white no-underline bottom-0"to="/">Go back to the homepage</Link>
