@@ -11,10 +11,10 @@ const Signup = () => (
   <Layout>
   	<div className="pt4 flex flex-column items-center tc">
 	  	<SEO title="Page two" />
-	  	<h1 id='signupMsg'className="pa3 white">To find out more signup below</h1>
+	  	<h1 id='signupMsg'className="pa3 white text-shadow">To find out more signup below</h1>
 	  	<Form />	
   		<br />
-  	  <Link className="white no-underline bottom-0"to="/">Go back to the homepage</Link>
+  	  <Link className="white no-underline bottom-0 text-shadow"to="/">Go back to the homepage</Link>
   	</div>  
   </Layout>
 )

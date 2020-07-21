@@ -1,4 +1,4 @@
-import React, { useState }  from "react";
+import React from "react";
 import '../styles/mailchimpForm.css'
 import addToMailchimp from 'gatsby-plugin-mailchimp'
 
@@ -102,7 +102,6 @@ class MailChimpForm extends React.Component {
 
             </div>
             <div className="">
-              <button className="br-pill f5 grow white bg-dark-blue ph3 pv1" type="submit">Submit</button>
               <button className="br-pill f5 grow white bg-dark-blue ph3 pv1" type="submit">Submit</button>
             </div>
         </form>
