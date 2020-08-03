@@ -48,9 +48,9 @@ const Layout = ({ children }) => {
           <main>
            <LogoSVG  />
            {children}
-             {console.log(data)}
+             {/* {console.log(data)} */}
     
-             <footer className='white fixed bottom-0 right-0'>
+             <footer className='white fixed bottom-0 right-0 f6 sans-serif'>
                © {new Date().getFullYear()}, 
                {` `}
                <a className='no-underline white pr1' href="/">Origen</a>

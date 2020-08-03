@@ -101,8 +101,8 @@ class MailChimpForm extends React.Component {
             </div>
 
             </div>
-            <div className="">
-              <button className="br-pill f5 grow white bg-dark-blue ph3 pv1" type="submit">Submit</button>
+            <div className="tc">
+              <button className="br-pill f5 grow white bg-dark-blue ph3 pv1 " type="submit">Submit</button>
             </div>
         </form>
       </div>
